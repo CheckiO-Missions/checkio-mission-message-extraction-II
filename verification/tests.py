@@ -11,26 +11,46 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": ["aqxczaqsgiunwoorkoaypablnea", 2, 3],
+            "answer": "casinoroyale",
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": ["PYTHON", 4, 1],
+            "answer": "YN",
+        },
+        {
+            "input": ["mlhipvzeraqnfddlleetndoiie", 2, 1],
+            "answer": "liveandletdie",
+        },
+        {
+            "input": ["123456789", 3, 2],
+            "answer": "369",
         },
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": ["tweemqhortokpnnrrarakckesevjrj", 3, 4],
+            "answer": "moonraker",
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": ["abcdefghij", 5, 4],
+            "answer": "ej",
+        },
+        {
+            "input": ["vfhrzoomfruussasiiwaiwtihtqhlltokvle", 2, 1],
+            "answer": "fromrussiawithlove",
+        },
+        {
+            "input": ["message", 7, 0],
+            "answer": "m",
+        },
+        {
+            "input": ["xrsgfoolwddfiiynygmeerk", 2, 3],
+            "answer": "goldfinger",
+        },
+        {
+            "input": ["XhelloX", 2, 1],
+            "answer": "hlo",
         },
     ]
 }
