@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;">
+    间谍变得更棘手了！现在，密文可能从字符串的后面开始。扩展函数，接受第三个参数<code>start</code> ，默认值为<code>0</code> 。
+</p>
+
+<p style="text-align: justify;">
+    请注意，您的脚本也应该能够解决系列任务中的前一个任务。
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong>三个参数。字符串 <span>(str{% if is_js %}ing{% endif %})</span>、正整数和非负整数 <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出：</strong>字符串 
+</p>
+
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>前提条件</strong>
+    <ul>
+    <li><i>step &gt; 0；</i></li>
+    <li><i>start &gt;= 0.</i></li>
+    </ul>
+</p>
