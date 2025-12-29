@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;">
+    Der Spion ist noch schwieriger geworden! Jetzt könnte die geheime Nachricht später in der Zeichenkette beginnen. Erweitern Sie Ihre Funktion, um den dritten Parameter <code>start</code> mit dem Standardwert <code>0</code> zu akzeptieren.
+</p>
+
+<p style="text-align: justify;">
+    Berücksichtigen Sie, dass Ihr Skript auch die vorherige Mission der Serie lösen sollte.
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Drei Argumente. Zeichenkette <span>(str{% if is_js %}ing{% endif %})</span>, positive und nicht-negative ganze Zahlen <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Zeichenkette. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Vorbedingungen:</strong>
+    <ul>
+    <li><i>step &gt; 0;</i></li>
+    <li><i>start &gt;= 0.</i></li>
+    </ul>
+</p>
